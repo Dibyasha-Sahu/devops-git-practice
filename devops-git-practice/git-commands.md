@@ -51,5 +51,8 @@ Test the connection :- ssh -T git@github.com
    => git diff  (shows the line-by-line differences between the last commit and current commit.
 
    => git diff --staged (shows the changes that are ready to be committed.)
- 
+
+   => git log (Displays all commits with commit ID , author , date , message)
+   
+   => git log --oneline (Short commit history) 
   
