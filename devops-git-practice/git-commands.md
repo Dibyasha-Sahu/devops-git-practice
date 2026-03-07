@@ -1,3 +1,32 @@
+~ Challenge Tasks
+    
+    Task 1: Install and Configure Git
+           - Verify Git is installed on your machine
+           - Set up your Git identity — name and email
+           - Verify your configuration
+
+    Task 2: Create Your Git Project
+           - Create a new folder called devops-git-practice
+           - Initialize it as a Git repository
+           - Check the status — read and understand what Git is telling you
+           - Explore the hidden .git/ directory — look at what's inside
+
+   Task 3: Create Your Git Commands Reference
+         - Create a file called git-commands.md inside the repo
+         - Add the Git commands you've used so far, organized by category:
+         - Setup & Config
+         - Basic Workflow
+         - Viewing Changes
+         For each command, write:
+         - What it does (1 line)
+         - An example of how to use it
+   Task 4: Stage and Commit
+         - Stage your file
+         - Check what's staged
+         - Commit with a meaningful message
+         - View your commit history
+
+
 
 # For setup and config commands
 
