@@ -1,0 +1,19 @@
+What is a Branch in Git?
+- A branch is essentially a movable pointer to a commit.
+- It lets you work on new features or fixes in isolation
+
+
+Why Use Branches Instead of Committing Everything to Main?
+- Safety: Keeps main clean and stable.
+- Parallel work: Multiple developers can work on different features simultaneously.
+- Experimentation: You can try ideas without risking the main project.
+- Organization: Each branch represents a specific task or feature
+
+
+What is HEAD in Git?
+- HEAD is a pointer to the current commit you’re working on.
+
+
+What Happens to Files When You Switch Branches?
+- Git updates your working directory to match the snapshot of the branch you switched to.
+
