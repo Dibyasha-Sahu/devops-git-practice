@@ -84,4 +84,40 @@ Test the connection :- ssh -T git@github.com
    => git log (Displays all commits with commit ID , author , date , message)
    
    => git log --oneline (Short commit history) 
-  
+
+
+# Git Branching Commands
+
+- List all branches:
+  git branch
+
+- Create a new branch:
+  git branch feature-1
+
+- Switch to a branch:
+  git switch feature-1
+
+- Create and switch to a branch in one step:
+  git checkout -b feature-2
+
+- Difference between switch and checkout:
+  git switch   # safer, only for branch switching
+  git checkout # older, can switch branches AND restore files
+
+- Make a commit on feature-1:
+  echo "Branch-specific content" > feature1.txt
+  git add feature1.txt
+  git commit -m "Document Git concepts (branch, HEAD, switching) in feature1.txt"
+
+- Switch back to main:
+  git switch main
+
+- Verify commit is not in main:
+  ls            # feature1.txt should not appear
+  git log       # commit message from feature-1 won’t be here
+
+- Delete a branch you no longer need:
+  git branch -d feature-2
+  # use -D to force delete without merging  
+
+
