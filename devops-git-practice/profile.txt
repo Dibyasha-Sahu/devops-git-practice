@@ -1,0 +1,3 @@
+Profile page created
+Fix typo in profile
+Improve formatting
